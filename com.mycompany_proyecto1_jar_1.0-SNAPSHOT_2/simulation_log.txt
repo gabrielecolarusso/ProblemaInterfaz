@@ -1,0 +1,219 @@
+[09:18:33.518] === NEW SIMULATION STARTED ===
+[09:18:33.519] MEMORY: -1404 MB available out of 1000 MB total
+[09:18:39.371] ALGORITHM CHANGE: Switched from FCFS to SPN
+[09:18:39.379] SUSPENDED: Process 8 (Gabriele) suspended. Reason: Low memory - freed 4 MB
+[09:18:39.383] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.384] SUSPENDED: Process 4 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.384] SUSPENDED: Process 5 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.384] SUSPENDED: Process 6 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.384] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.384] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.384] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.384] MEMORY: 700 MB available out of 1000 MB total
+[09:18:39.385] RESUMED: Process 8 (Gabriele) I/O completed, moved to ready queue
+[09:18:39.385] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:39.386] RESUMED: Process 4 (Process1) I/O completed, moved to ready queue
+[09:18:39.386] SCHEDULER: Selected Process 8 (Gabriele) using SPN
+[09:18:39.470] COMPLETED: Process 8 (Gabriele) finished. Total waiting time: 4 cycles
+[09:18:39.471] MEMORY: 100 MB available out of 1000 MB total
+[09:18:39.474] STATE CHANGE: Process 8 (Gabriele) changed from running to exit
+[09:18:39.479] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.479] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.480] MEMORY: 700 MB available out of 1000 MB total
+[09:18:39.480] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:39.480] RESUMED: Process 6 (Process1) I/O completed, moved to ready queue
+[09:18:39.480] SCHEDULER: Selected Process 4 (Process1) using SPN
+[09:18:39.625] BLOCKED: Process 4 (Process1) blocked for I/O. Expected duration: 200 cycles
+[09:18:39.626] STATE CHANGE: Process 4 (Process1) changed from running to blocked
+[09:18:39.631] SUSPENDED: Process 5 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.632] SUSPENDED: Process 6 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.632] MEMORY: 700 MB available out of 1000 MB total
+[09:18:39.632] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:39.632] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:39.632] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:39.796] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 200 cycles
+[09:18:39.797] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:39.802] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.803] SUSPENDED: Process 4 (Process1) suspended. Reason: Low memory (blocked) - freed 300 MB
+[09:18:39.803] MEMORY: 700 MB available out of 1000 MB total
+[09:18:39.803] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:39.803] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:39.803] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:39.879] RESUMED: Process 4 (Process1) I/O completed, moved to ready queue
+[09:18:39.948] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 200 cycles
+[09:18:39.949] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:39.954] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:39.954] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory (blocked) - freed 300 MB
+[09:18:39.954] MEMORY: 700 MB available out of 1000 MB total
+[09:18:39.954] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:39.954] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:39.954] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:40.049] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:40.049] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:40.102] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 200 cycles
+[09:18:40.103] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:40.108] SUSPENDED: Process 5 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:40.108] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:40.108] MEMORY: 700 MB available out of 1000 MB total
+[09:18:40.108] RESUMED: Process 6 (Process1) I/O completed, moved to ready queue
+[09:18:40.108] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:40.108] SCHEDULER: Selected Process 6 (Process1) using SPN
+[09:18:40.200] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:40.257] BLOCKED: Process 6 (Process1) blocked for I/O. Expected duration: 200 cycles
+[09:18:40.258] STATE CHANGE: Process 6 (Process1) changed from running to blocked
+[09:18:40.263] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:40.263] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:40.263] MEMORY: 700 MB available out of 1000 MB total
+[09:18:40.263] RESUMED: Process 4 (Process1) I/O completed, moved to ready queue
+[09:18:40.263] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:40.263] SCHEDULER: Selected Process 4 (Process1) using SPN
+[09:18:40.509] RESUMED: Process 6 (Process1) I/O completed, moved to ready queue
+[09:18:40.848] BLOCKED: Process 4 (Process1) blocked for I/O. Expected duration: 600 cycles
+[09:18:40.848] STATE CHANGE: Process 4 (Process1) changed from running to blocked
+[09:18:40.854] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:40.854] SUSPENDED: Process 6 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:40.854] MEMORY: 700 MB available out of 1000 MB total
+[09:18:40.854] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:40.854] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:40.854] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:41.420] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 600 cycles
+[09:18:41.421] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:41.426] SUSPENDED: Process 5 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:41.426] SUSPENDED: Process 4 (Process1) suspended. Reason: Low memory (blocked) - freed 300 MB
+[09:18:41.426] MEMORY: 700 MB available out of 1000 MB total
+[09:18:41.426] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:41.426] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:41.427] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:41.601] RESUMED: Process 4 (Process1) I/O completed, moved to ready queue
+[09:18:41.993] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 600 cycles
+[09:18:41.994] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:41.999] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:41.999] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory (blocked) - freed 300 MB
+[09:18:41.999] MEMORY: 700 MB available out of 1000 MB total
+[09:18:41.999] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:41.999] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:41.999] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:42.175] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:42.175] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:42.580] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 600 cycles
+[09:18:42.581] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:42.586] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:42.586] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:42.586] MEMORY: 700 MB available out of 1000 MB total
+[09:18:42.586] RESUMED: Process 6 (Process1) I/O completed, moved to ready queue
+[09:18:42.586] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:42.586] SCHEDULER: Selected Process 6 (Process1) using SPN
+[09:18:42.748] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:43.161] BLOCKED: Process 6 (Process1) blocked for I/O. Expected duration: 600 cycles
+[09:18:43.161] STATE CHANGE: Process 6 (Process1) changed from running to blocked
+[09:18:43.166] SUSPENDED: Process 5 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:43.167] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:43.167] MEMORY: 700 MB available out of 1000 MB total
+[09:18:43.167] RESUMED: Process 4 (Process1) I/O completed, moved to ready queue
+[09:18:43.167] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:43.167] SCHEDULER: Selected Process 4 (Process1) using SPN
+[09:18:43.912] RESUMED: Process 6 (Process1) I/O completed, moved to ready queue
+[09:18:46.757] COMPLETED: Process 4 (Process1) finished. Total waiting time: 1034 cycles
+[09:18:46.757] MEMORY: 400 MB available out of 1000 MB total
+[09:18:46.758] STATE CHANGE: Process 4 (Process1) changed from running to exit
+[09:18:46.763] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:46.763] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:46.903] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 200 cycles
+[09:18:46.903] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:46.908] SUSPENDED: Process 6 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:46.908] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:46.908] MEMORY: 700 MB available out of 1000 MB total
+[09:18:46.908] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:46.908] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:46.909] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:47.056] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 200 cycles
+[09:18:47.057] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:47.063] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:47.064] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory (blocked) - freed 300 MB
+[09:18:47.064] MEMORY: 700 MB available out of 1000 MB total
+[09:18:47.064] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:47.064] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:47.064] SCHEDULER: Selected Process 5 (Process1) using SPN
+[09:18:47.154] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:47.154] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:47.200] BLOCKED: Process 5 (Process1) blocked for I/O. Expected duration: 200 cycles
+[09:18:47.201] STATE CHANGE: Process 5 (Process1) changed from running to blocked
+[09:18:47.206] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:47.206] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:47.206] MEMORY: 700 MB available out of 1000 MB total
+[09:18:47.206] RESUMED: Process 6 (Process1) I/O completed, moved to ready queue
+[09:18:47.206] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:47.206] SCHEDULER: Selected Process 6 (Process1) using SPN
+[09:18:47.450] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:50.862] COMPLETED: Process 6 (Process1) finished. Total waiting time: 2237 cycles
+[09:18:50.862] MEMORY: 400 MB available out of 1000 MB total
+[09:18:50.862] STATE CHANGE: Process 6 (Process1) changed from running to exit
+[09:18:50.867] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:50.867] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:54.505] COMPLETED: Process 0 (Process1) finished. Total waiting time: 5874 cycles
+[09:18:54.506] MEMORY: 400 MB available out of 1000 MB total
+[09:18:54.507] STATE CHANGE: Process 0 (Process1) changed from running to exit
+[09:18:54.512] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:54.512] SCHEDULER: Selected Process 5 (Process1) using SPN
+[09:18:55.097] BLOCKED: Process 5 (Process1) blocked for I/O. Expected duration: 600 cycles
+[09:18:55.098] STATE CHANGE: Process 5 (Process1) changed from running to blocked
+[09:18:55.103] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:55.103] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:55.103] MEMORY: 700 MB available out of 1000 MB total
+[09:18:55.104] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:55.104] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:55.104] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:55.850] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:58.734] COMPLETED: Process 0 (Process1) finished. Total waiting time: 8362 cycles
+[09:18:58.734] MEMORY: 400 MB available out of 1000 MB total
+[09:18:58.734] STATE CHANGE: Process 0 (Process1) changed from running to exit
+[09:18:58.739] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:58.739] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:59.327] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 600 cycles
+[09:18:59.327] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:59.333] SUSPENDED: Process 5 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:59.333] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:59.333] MEMORY: 700 MB available out of 1000 MB total
+[09:18:59.333] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:59.333] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:59.333] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:18:59.903] BLOCKED: Process 0 (Process1) blocked for I/O. Expected duration: 600 cycles
+[09:18:59.903] STATE CHANGE: Process 0 (Process1) changed from running to blocked
+[09:18:59.908] SUSPENDED: Process 5 (Process1) suspended. Reason: Low memory - freed 300 MB
+[09:18:59.908] SUSPENDED: Process 0 (Process1) suspended. Reason: Low memory (blocked) - freed 300 MB
+[09:18:59.908] MEMORY: 700 MB available out of 1000 MB total
+[09:18:59.908] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:18:59.908] RESUMED: Process 5 (Process1) I/O completed, moved to ready queue
+[09:18:59.908] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:19:00.079] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:19:00.079] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:19:03.540] COMPLETED: Process 0 (Process1) finished. Total waiting time: 12011 cycles
+[09:19:03.540] MEMORY: 400 MB available out of 1000 MB total
+[09:19:03.540] STATE CHANGE: Process 0 (Process1) changed from running to exit
+[09:19:03.545] RESUMED: Process 0 (Process1) I/O completed, moved to ready queue
+[09:19:03.545] SCHEDULER: Selected Process 5 (Process1) using SPN
+[09:19:07.177] COMPLETED: Process 5 (Process1) finished. Total waiting time: 5220 cycles
+[09:19:07.178] MEMORY: 400 MB available out of 1000 MB total
+[09:19:07.178] STATE CHANGE: Process 5 (Process1) changed from running to exit
+[09:19:07.183] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:19:10.858] COMPLETED: Process 0 (Process1) finished. Total waiting time: 4805 cycles
+[09:19:10.859] MEMORY: 700 MB available out of 1000 MB total
+[09:19:10.859] STATE CHANGE: Process 0 (Process1) changed from running to exit
+[09:19:10.864] SCHEDULER: Selected Process 0 (Process1) using SPN
+[09:19:14.521] COMPLETED: Process 0 (Process1) finished. Total waiting time: 7270 cycles
+[09:19:14.521] MEMORY: 1000 MB available out of 1000 MB total
+[09:19:14.521] STATE CHANGE: Process 0 (Process1) changed from running to exit
+[09:21:05.073] === NEW SIMULATION STARTED ===
+[09:21:05.074] MEMORY: -1700 MB available out of 1000 MB total
+[09:21:39.461] === NEW SIMULATION STARTED ===
+[09:21:39.462] MEMORY: -1700 MB available out of 1000 MB total
+[09:23:22.663] === NEW SIMULATION STARTED ===
+[09:23:22.663] MEMORY: -1700 MB available out of 1000 MB total
+[09:24:32.096] === NEW SIMULATION STARTED ===
+[09:24:32.097] MEMORY: -1700 MB available out of 1000 MB total
+[09:24:38.361] === NEW SIMULATION STARTED ===
+[09:24:38.362] MEMORY: -1700 MB available out of 1000 MB total
+[09:32:34.956] === NEW SIMULATION STARTED ===
+[09:32:34.956] MEMORY: -1700 MB available out of 1000 MB total
+[09:33:04.860] === NEW SIMULATION STARTED ===
+[09:33:04.860] MEMORY: -1700 MB available out of 1000 MB total
